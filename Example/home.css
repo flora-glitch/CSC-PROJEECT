@@ -1,0 +1,173 @@
+body
+{
+    font - family: Arial, sans - serif;
+margin: 0;
+padding: 0;
+background - color: white;
+text - align: center;
+background - image: url( / pexels - mariana - kurnyk - 844465 - 1775045.j
+pg);
+background - size: cover;
+}
+.clear
+{
+    clear: both;
+}
+
+header
+{
+
+    color:  # 333;
+
+}
+nav
+{
+    background - color:  # 333;
+        padding: 1.5
+rem;
+}
+nav
+h1
+{
+    float: left;
+}
+nav
+ul
+{
+    cursor: pointer;
+float: right;
+}
+nav
+li
+{
+    float: left;
+margin: 0
+rem
+3
+rem;
+
+}
+.Texter
+{
+    color:  # 333;
+}
+.hero
+{
+
+    height: 12rem;
+background - position: center;
+text - align: center;
+padding: 9
+rem;
+}
+.form - section
+{
+    text - align: center;
+}
+
+
+
+h1
+{
+    color: goldenrod;
+
+}
+
+h2
+{
+    color: goldenrod;
+font - size: 1.8
+rem;
+}
+button
+{
+    font - size: 1.8rem;
+
+}
+/ *Parent * /
+.boxes
+{
+    margin: 0;
+padding: 0;
+box - sizing: border - box;
+display: flex;
+padding: 15
+rem;
+text - align: center;
+
+}
+
+.box1
+{
+    background - image: url( / files / pexels - keesha - s - kitchen - 22731136 - 13915043.jpg);
+background - size: cover;
+width: 50
+rem;
+height: 30
+rem;
+float: left;
+text - align: center;
+
+}
+.box2
+{
+    background - image: url( / files / pexels - energepic - com - 27411 - 110472.jpg);
+background - size: cover;
+width: 50
+rem;
+height: 30
+rem;
+float: center;
+text - align: center;
+align - items: center;
+}
+.box3
+{
+    background - image: url( / files / pexels - flat - hito - 294826 - 863014.jpg);
+background - size: cover;
+width: 50
+rem;
+height: 30
+rem;
+float: right;
+text - align: center;
+}
+
+ul
+{
+    list - style - type: none;
+padding: 0;
+}
+
+ul
+{
+    display: flex;
+justify - content: space - around;
+}
+ul
+l2
+{
+    background - image: url( / files / pexels - keesha - s - kitchen - 22731136 - 13915043.jpg);
+
+}
+a
+{
+    color: goldenrod;
+text - decoration: none;
+}
+
+a: hover
+{
+    text - decoration: underline;
+}
+footer
+{
+    background - color:  # 333;
+        color: goldenrod;
+text - align: center;
+padding: 0;
+position: fixed;
+width: 100 %;
+bottom: 0;
+}
+

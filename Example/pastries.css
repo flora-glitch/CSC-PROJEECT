@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    background-image: url(/pexels-mariana-kurnyk-844465-1775045.jpg);
+    background-size:cover;
+    color:black;
+    text-align: center;
+}
+
+
+header {
+    background-color: #333;
+    color: goldenrod;
+    padding: 1em 0;
+    text-align: center;
+}
+nav ul{
+    cursor: pointer;
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+}
+
+main {
+    padding: 1em;
+}
+
+h1{
+    color: goldenrod;
+}
+h2 {
+    color: black;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0.5em 0;
+}
+
+a {
+    color:goldenrod;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #007BFF;
+}
+
+footer {
+    background-color: #333;
+    color: goldenrod;
+    text-align: center;
+    padding:  0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

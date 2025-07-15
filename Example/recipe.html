@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tastey bite</title>
+    <link rel="stylesheet" href="/Recipe.css">
+    <link rel="icon" href="/restaurant.png">
+</head>
+<body>
+    <header>
+        <nav>
+       <h1>Tastey bite</h1>
+       <ul>
+        <li ><a href="home.html">Home</a></li>
+
+        <li ><a href="Recipe.html"> Add Recipe</a></li>
+    </ul>
+        </nav>
+
+    </header>
+    <main>
+        <h2>All Recipes</h2>
+
+
+         <form action="/add" method="POST">
+            <label for="name">Recipe Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="ingredients">Ingredients:</label>
+            <textarea id="ingredients" name="ingredients" required></textarea>
+            <label for="instructions">Instructions:</label>
+            <textarea id="instructions" name="instructions" required></textarea>
+            <button type="submit">Add Recipe</button>
+        </form>
+
+        <footer>
+            <p>&copy; 2025 Nigerian speacial Cuisines</p>
+        </footer>
+    </main>
+</body>
+</html>
